@@ -85,9 +85,9 @@ function aboutus() {
                     <div className="row my-4">
                         <div className="text-center m-auto text-dark" style={{fontSize: "30px"}}>
                             <h2>Connect With Us</h2>
-                            <Link to="/" className="text-primary"><i className="fa fa-facebook-official mr-3"></i></Link>
-                            <Link to="/" className="text-info"><i class="fa fa-linkedin-square mr-3" aria-hidden="true"></i></Link>
-                            <Link to="/" className="text-danger"><i className="fa fa-instagram mr-3"></i></Link>
+                            <a href="https://www.facebook.com/winstorepk/" target="blank"><i className="fa fa-facebook-official mr-3"></i></a>
+                            <a href="https://twitter.com/Winstorepk" target="blank" className="text-info"><i class="fa fa-twitter-square mr-3" aria-hidden="true"></i></a>
+                            <a href="https://www.instagram.com/winstorepk/" target="blank" className="text-danger"><i className="fa fa-instagram mr-3"></i></a>
                         </div>
                     </div>
                 </div>

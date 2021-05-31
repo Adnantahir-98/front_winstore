@@ -9,7 +9,7 @@ function blog() {
                 <header className="pb-4 mb-5">
                     <div className="row pb-4 blog_img mb-3">
                         <div className="container overlay_img text-center img-fluid"><br /> <br />
-                            <h1 className="mx-4 float-left my-5 py-4 about_head text-white">Blog</h1>
+                            {/* <h1 className="mx-4 float-left my-5 py-4 about_head text-info">Blog</h1> */}
                         </div>
                     </div>
                 </header>

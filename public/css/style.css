@@ -40,16 +40,19 @@ body{
 /* Set the size, colour, font properties for the blinking text */
 .blinking {
     animation: blinkingText 1.5s infinite;
-    transition: 1s ease;
+    transition: 1s ease-in-out;
 }
 
 /* Specifies the animation and transparency for the blinking text */
 @keyframes blinkingText {
     0% {
         opacity: .1;
+        -o-animation-delay: 0.5s ease-in-out;
     }
     50% {
         opacity: .9;
+        animation-delay: 1s;
+        transition: 0.5s ease-in-out;
     }
     100% {
         opacity: 0;
@@ -199,6 +202,16 @@ input[type="number"] {
 }
 /* End of Quantity plus minus buttons */
 
+.fa-angle-double-down:hover{
+  margin-top: 9px;
+  padding-top: 2px;
+  color: green;
+  transition: .5s ease-in-out;
+}
+
+.flash4_tags{
+  border-radius: 50px;
+}
 
 
 
@@ -207,6 +220,28 @@ footer{
     position: absolute;
     bottom: 100;
     width: 100%;
+}
+
+
+.floating {
+  animation: floating 2s infinite;
+  transition: 1s ease;
+}
+
+/* Specifies the animation and transparency for the blinking text */
+@keyframes floating {
+  0% {
+      margin: 0;
+      color: #fff;
+  }
+  50% {
+      margin-top: 15px;
+      color: green;
+  }
+  100% {
+      margin: 0;
+      color: #fff;
+  }
 }
 
 

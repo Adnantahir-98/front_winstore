@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function categories_product() {
     return (
         <div>
-            <section className="bg-light pt-3">
+            <section className="bg-light pt-5">
                 <div className="container">
                     <h3>Categories</h3>
                     <div className="row">

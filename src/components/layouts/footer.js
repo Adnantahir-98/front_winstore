@@ -6,15 +6,15 @@ function footer() {
     return (
         <div>
             <section>
-                <footer className=" mt-5">
+                <footer className=" mt-5" style={{background:"#eaedef"}}>
                     {/* Footers Main menu */}
                     <section className="mt-3 pt-5">
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-3">
                                     <h6 className="font-weight-bold mb-3">Download App</h6>
-                                    <a href=""><img src="imgs/apple.jpg" alt="apple.jpg" className="img-fluid" /></a>
-                                    <img src="imgs/play.jpg" alt="play.jpg" className="img-fluid" />
+                                    <a href=""><img src="imgs/apple_grey_2.jpg" alt="apple_grey" className="img-fluid" /></a>
+                                    <img src="imgs/play_grey_2.jpg" alt="play_grey_2" className="img-fluid" />
 
                                     <h4>Follow us</h4>
                                     <div className="row mb-2">
@@ -29,12 +29,12 @@ function footer() {
                                 <div className="col-md-3">
                                     <h6 className="font-weight-bold mb-3">Winstore</h6>
                                     <ul className="navbar-nav">
-                                        <li className="nav-item"><Link to="#" className="text-dark">FAQs</Link></li>
+                                        <li className="nav-item"><Link to="/faq" className="text-dark">FAQs</Link></li>
                                         <li className="nav-item"><Link to="#" className="text-dark">Our Press</Link></li>
-                                        <li className="nav-item"><Link to="#" className="text-dark">Terms and Conditions</Link></li>
-                                        <li className="nav-item"><Link to="#" className="text-dark">Privacy Policy</Link></li>
-                                        <li className="nav-item"><Link to="#" className="text-dark">Shipping Policy</Link></li>
-                                        <li className="nav-item"><Link to="#" className="text-dark">Cancellation and Exchange Policy</Link></li>
+                                        <li className="nav-item"><Link to="/termsconditions" className="text-dark">Terms and Conditions</Link></li>
+                                        <li className="nav-item"><Link to="/privacypolicy" className="text-dark">Privacy Policy</Link></li>
+                                        <li className="nav-item"><Link to="/shippingpolicy" className="text-dark">Shipping Policy</Link></li>
+                                        <li className="nav-item"><Link to="/cancellationpolicy" className="text-dark">Cancellation and Exchange Policy</Link></li>
                                         <li className="nav-item"><Link to="#" className="text-dark">Payment Method</Link></li>
                                     </ul>
                                 </div>

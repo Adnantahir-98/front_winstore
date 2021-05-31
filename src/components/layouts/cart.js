@@ -40,7 +40,7 @@ function cart() {
                             <h6 className="mt-4">4999.PKR</h6>
                         </div>
                         <div className="col-md-2 mt-4">
-                            <input type="number" className="form-control" placeholder="e.g: 2" min="1" max="5" />
+                            <input type="number" className="form-control w-50" placeholder="e.g: 2" min="1" max="5" />
                         </div>
                         <div className="col-md-2">
                             <h6 className="mt-4">4999.PKR</h6>
@@ -61,7 +61,7 @@ function cart() {
                             <h6 className="mt-4">4999.PKR</h6>
                         </div>
                         <div className="col-md-2 mt-4">
-                            <input type="number" className="form-control" placeholder="e.g: 1" min="1" max="10" />
+                            <input type="number" className="form-control w-50" placeholder="e.g: 1" min="1" max="10" />
                         </div>
                         <div className="col-md-2">
                             <h6 className="mt-4">4999.PKR</h6>
@@ -75,7 +75,7 @@ function cart() {
 
                     <div className="row">
                         <div className="col-md-6">
-                            <button className="btn btn-outline-info my-3"><Link to="#" className="text-warning">Continue Shopping</Link></button>
+                            <button className="btn btn-outline-info my-3"><Link to="/shop" className="text-warning">Continue Shopping</Link></button>
                         </div>
                         <div className="col-md-6">
                         <div class="jumbotron shadow-sm bg-light">
@@ -84,7 +84,7 @@ function cart() {
                             <hr class="my-4" />
                             <p class="lead">Total <span className="float-right">4999.PKR</span></p>
                             <p class="lead">
-                                <Link class="btn btn-outline-success btn-lg mt-1" to="#" role="button">PROCEED TO CHECKOUT</Link>
+                                <Link class="btn btn-outline-success btn-lg mt-1" to="/checkout" role="button">PROCEED TO CHECKOUT</Link>
                             </p>
                         </div>
                         </div>

@@ -92,7 +92,7 @@ function collection() {
                                     <img src="imgs/products/collection_products/206a233cd1d4f6fe2ffde6ea69d3ba4a.jpg" alt="" style={{height:"50px", width:"50px"}} />
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="imgs/products/collection_products/291ba8f52d834d9985f3f012db9dccdf.jpg" alt="" style={{height:"50px", width:"50px"}} />
+                                    <img src="imgs/products/collection_products/3180fe27f04233d80a734f60948101a5.jpg" alt="" style={{height:"50px", width:"50px"}} />
                                 </div>
                                 <div className="col-md-4">
                                     <img src="imgs/products/collection_products/16535ffa2301b3b6229cfa5be0eaec2a.jpg" alt="" style={{height:"50px", width:"50px"}}/>
@@ -115,8 +115,8 @@ function collection() {
                             </div>
                         </div>
                         <div className="col-md-3 bg-white text-center py-4 border collection_shadow">
-                            <h5>Deals On Oil</h5>
-                            <p>9 products</p>
+                            <h5>Watches For Men</h5>
+                            <p>1400 products</p>
                             <div className="row">
                                 <div className="col-md-4">
                                     <img src="imgs/products/collection_products/aba9a8c81cd6326a9d5030e4c0a68148.jpg" alt="" style={{height:"50px", width:"50px"}} />
@@ -125,7 +125,7 @@ function collection() {
                                     <img src="imgs/products/collection_products/775173380181286b24fa8904b3f03602.jpg" alt="" style={{height:"50px", width:"50px"}} />
                                 </div>
                                 <div className="col-md-4">
-                                    <img src="imgs/products/collection_products/291ba8f52d834d9985f3f012db9dccdf.jpg.jpg.jpg" alt="" style={{height:"50px", width:"50px"}}/>
+                                    <img src="imgs/products/collection_products/291ba8f52d834d9985f3f012db9dccdf.jpg" alt="" style={{height:"50px", width:"50px"}}/>
                                 </div>
                             </div>
                         </div>

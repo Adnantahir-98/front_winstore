@@ -9,9 +9,10 @@ import FlashProducts from '../screens/flashproducts'
 import CatProducts from './layouts/categories_product'
 import JustForYourProducts from './layouts/foryouproductssection'
 import CollectionProducts from './layouts/collection'
+import PopularBrands from './layouts/popularbrand'
 
 
-function home() {
+function home(history) {
 
     // SlideShow images and indicators...
     const fadeImages = [
@@ -57,7 +58,7 @@ function home() {
                         <Fade {...fade}>
                             <div className="each-fade">
                                 <div>
-                                    <img src={fadeImages[0]} class="img-fluid" />
+                                    <img src={fadeImages[0]} class="img-fluid"/>
                                 </div>
                             </div>
                             <div className="each-fade">
@@ -81,13 +82,17 @@ function home() {
             </section>
             
 
-            
+            {/* Main Product of Body Section of Home Page */}
             <section className="bg-light">
                 <FlashProducts />
             </section>
 
             <section>
                 <CollectionProducts />
+            </section>
+
+            <section>
+                <PopularBrands />
             </section>
             
             <section>

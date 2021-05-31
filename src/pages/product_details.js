@@ -4,23 +4,28 @@ import { Link } from 'react-router-dom'
 function product_details() {
     
     return (
-        <div style={{background:"#eff0f5"}}>
-            <section className="p-4">
+        <div >
+            <section className="p-4" style={{background:"#eff0f5"}}>
 
                 <div className="container">
+                    {/* <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Grocery</li>
+                        </ol>
+                    </nav> */}
                     <div className="row bg-white my-5">
                         <div className="col-md-4">
-                            <img src="imgs/ebda6541a3489419c8b7ca40016da149.jpg_400x400q75-product.jpg_.webp" alt="" className="img-fluid" />
-                            <div className="row">
-                                <div className="col-md-4">
-                                    <img src="imgs/ebda6541a3489419c8b7ca40016da149.jpg_400x400q75-product.jpg_.webp" alt="" className="img-fluid border border-danger p-2 mt-3" style={{height:"96px"}} />
-                                </div>
-                                <div className="col-md-4">
-                                    <img src="imgs/ebda6541a3489419c8b7ca40016da149.jpg_400x400q75-product.jpg_.webp" alt="" className="img-fluid border border-danger p-2 mt-3"  style={{height:"96px"}} />
-                                </div>
-                                <div className="col-md-4">
-                                    <img src="imgs/ebda6541a3489419c8b7ca40016da149.jpg_400x400q75-product.jpg_.webp" alt="" className="img-fluid border border-danger p-2 mt-3" style={{height:"96px"}}  />
-                                </div>
+                            <img src="imgs/5c91d52e78895aff91a726f95d30a1f8.png" alt="" className="img-fluid" />
+                            <div className="row m-auto">
+                                    <img src="imgs/5c91d52e78895aff91a726f95d30a1f8.png" alt="" className="img-fluid border border-danger p-2 mt-3 mr-1" style={{height:"96px"}} />
+                                
+                                {/* <div className="col-md-4"> */}
+                                    <img src="imgs/5c91d52e78895aff91a726f95d30a1f8.png" alt="" className="img-fluid border border-danger p-2 mt-3 mr-1"  style={{height:"96px"}} />
+                                {/* </div> */}
+                                {/* <div className="col-md-4"> */}
+                                    <img src="imgs/5c91d52e78895aff91a726f95d30a1f8.png" alt="" className="img-fluid border border-danger p-2 mt-3" style={{height:"96px"}}  />
+                                {/* </div> */}
 
                             </div>
                         </div>
@@ -51,7 +56,7 @@ function product_details() {
                             </div>
                             <div className="row mt-4">
                                 <div className="col-md-6">
-                                    <Link to="/" className="underline"><button className="btn btn-success btn-block rounded-0">Add to Cart</button></Link>
+                                    <Link to="/" className="underline"><button className="btn btn-success btn-block rounded-0 mb-2">Add to Cart</button></Link>
                                 </div>
                                 <div className="col-md-6">
                                 <Link to="/" className="underline"><button className="btn btn-info btn-block rounded-0">Buy now</button></Link>
@@ -114,6 +119,80 @@ function product_details() {
                             </div>
                         </div>
                     </div>
+                    <div className="row bg-white py-3">
+                        <div className="col-md-12">
+                            <div className="bg-light">
+                                <h3 style={{background:"#fafafa"}} className="px-4 py-3">Product details of BROOKE BOND SUPREME 95gm</h3>
+                            </div>
+                        </div>
+                            <div className="col-md-2 ml-3">
+                                <h1 style={{fontSize:"60px"}}>5.0<span className="text-muted">/5</span></h1>
+                                <div className="mt-2">
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                </div>
+                                <p className="text-muted">176 Ratings</p>
+
+                            </div>
+                            <div className="col-md-2">
+                                <div className="mt-2">
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    
+                                </div>
+                                <div className="mt-2">
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                </div>
+                                <div className="mt-2">
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                </div>
+                                <div className="mt-2">
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                </div>
+                                <div className="mt-2">
+                                    <i className="fa fa-star text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                    <i className="fa fa-star-half-o text-warning" style={{fontSize:"30px"}}></i>
+                                </div>
+                            </div>
+                            <div className="col-md-2">
+                                <div class="progress mt-3">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100" style={{width:"100%"}}></div>
+                                </div>
+                                <div class="progress mt-4">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100" style={{width:"75%"}}></div>
+                                </div>
+                                <div class="progress mt-4">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100" style={{width:"50%"}}></div>
+                                </div>
+                                <div class="progress mt-4">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100" style={{width:"25%"}}></div>
+                                </div>
+                                <div class="progress mt-4">
+                                    <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="100" aria-valuemin="100" aria-valuemax="100" style={{width: "1%"}}></div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </section>
         </div>
