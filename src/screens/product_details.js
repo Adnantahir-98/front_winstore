@@ -20,8 +20,8 @@ function product_details({ match }) {
                         </ol>
                     </nav> */}
                     <div className="row bg-white my-5">
-                        <div className="col-md-4">
-                            <img src={product.image} alt={product.name} className="img-fluid" />
+                        <div className="col-md-4 pb-2 m-auto">
+                            <img src={product.image} alt={product.name} className="img-fluid mt-3" />
                             <div className="row m-auto">
                                     <img src={product.image} alt={product.name} className="img-fluid border border p-2 mt-3 mr-1" style={{height:"96px", width:"95px"}} />
                                 
@@ -62,10 +62,13 @@ function product_details({ match }) {
                             </div>
                             <div className="row mt-4">
                                 <div className="col-md-6">
-                                    <Link to="/" className="underline"><button className="btn btn-success btn-block rounded-0 mb-2">Add to Cart</button></Link>
+                                    <Link to="/" className="underline"><button className="btn btn-success btn-block mb-2">Add to Cart</button></Link>
                                 </div>
                                 <div className="col-md-6">
-                                <Link to="/" className="underline"><button className="btn btn-info btn-block rounded-0">Buy now</button></Link>
+                                <Link to="/" className="underline"><button className="btn btn-info btn-block">Buy now</button></Link>
+                                </div>
+                                <div className="col-md-10 m-auto">
+                                <Link to="/" className="underline"><button className="btn btn-outline-dark btn-block mt-1">Go Back</button></Link>
                                 </div>
                             </div>
                         </div>

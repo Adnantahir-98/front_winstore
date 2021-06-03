@@ -1,0 +1,163 @@
+// const product = [
+//     {
+//       '_id': '5',
+//       'name': 'Stereo Wireless Headset',
+//       'image': '/imgs/products/foryouproducts/StereoWirelessHeadset2.jpg',
+//       'description':
+//         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+//       'brand': 'Shenyen',
+//       'category': 'Electronics',
+//       'price': 6.99,
+//       'countInStock': 19,
+//       'rating': 3.9,
+//       'numReviews': 10,
+//     },
+//     {
+//       '_id': '6',
+//       'name': 'Nido Forti-grow 900 gm',
+//       'image': '/imgs/products/foryouproducts/Nido-fortigrowth.png',
+//       'description':
+//         'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+//       'brand': 'Nestle',
+//       'category': 'Electronics',
+//       'price': 8.99,
+//       'countInStock': 16,
+//       'rating': 4.2,
+//       'numReviews': 21,
+//     },
+//     {
+//       '_id': '7',
+//       'name': 'Superb Bass Earphones 2 in One',
+//       'image': '/imgs/products/foryouproducts/fast_ear-handfrees.jpg',
+//       'description':
+//         'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+//       'brand': 'Fast',
+//       'category': 'Electronics',
+//       'price': 29.99,
+//       'countInStock': 5,
+//       'rating': 3.6,
+//       'numReviews': 4,
+//     },
+//     {
+//       '_id': '8',
+//       'name': 'Sponge Beauty Powder Puff set',
+//       'image': '/imgs/products/foryouproducts/Powered_eggs_product.jpg',
+//       'description':
+//         'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+//       'brand': 'Norma',
+//       'category': 'Washing',
+//       'price': 3.99,
+//       'countInStock': 13,
+//       'rating': 4.4,
+//       'numReviews': 9,
+//     },
+//     {
+//       '_id': '9',
+//       'name': 'Supreme Black Tea 475gm',
+//       'image': '/imgs/products/foryouproducts/supremetealeaves.jpg',
+//       'description':
+//         'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+//       'brand': 'Supreme',
+//       'category': 'Food',
+//       'price': 19.49,
+//       'countInStock': 29,
+//       'rating': 4.7,
+//       'numReviews': 109,
+//     },
+//     {
+//       '_id': '10',
+//       'name': 'Extra White Face Wash 100ml',
+//       'image': '/imgs/products/foryouproducts/extra_white-man-facewash.jpg',
+//       'description':
+//         'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+//       'brand': 'Amazon',
+//       'category': 'Electronics',
+//       'price': 14.99,
+//       'countInStock': 0,
+//       'rating': 4.1,
+//       'numReviews': 16,
+//     },
+//     {
+//       '_id': '11',
+//       'name': 'Gateway Laptop Battery GW500',
+//       'image': '/imgs/products/foryouproducts/laptop_battery.jpg',
+//       'description':
+//         'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+//       'brand': 'Logitech',
+//       'category': 'Electronics',
+//       'price': 39.99,
+//       'countInStock': 5,
+//       'rating': 3.9,
+//       'numReviews': 8,
+//     },
+//     {
+//       '_id': '12',
+//       'name': 'Stainless Steel Cutter & Bottle Opener',
+//       'image': '/imgs/products/foryouproducts/BottleOpener_cutter.jpg',
+//       'description':
+//         'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+//       'brand': 'Amazon',
+//       'category': 'Cleaning',
+//       'price': 7.00,
+//       'countInStock': 0,
+//       'rating': 4.5,
+//       'numReviews': 13,
+//     },
+//     {
+//       '_id': '13',
+//       'name': 'Stereo Wireless Headset',
+//       'image': '/imgs/products/foryouproducts/StereoWirelessHeadset2.jpg',
+//       'description':
+//         'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+//       'brand': 'Shenyen',
+//       'category': 'Electronics',
+//       'price': 6.99,
+//       'countInStock': 19,
+//       'rating': 3.9,
+//       'numReviews': 10,
+//     },
+//     {
+//       '_id': '14',
+//       'name': 'Sponge Beauty Powder Puff set',
+//       'image': '/imgs/products/foryouproducts/Powered_eggs_product.jpg',
+//       'description':
+//         'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+//       'brand': 'Norma',
+//       'category': 'Washing',
+//       'price': 3.99,
+//       'countInStock': 13,
+//       'rating': 4.4,
+//       'numReviews': 9,
+//     },
+    
+//     {
+//       '_id': '15',
+//       'name': 'Superb Bass Earphones 2 in One',
+//       'image': '/imgs/products/foryouproducts/fast_ear-handfrees.jpg',
+//       'description':
+//         'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+//       'brand': 'Fast',
+//       'category': 'Electronics',
+//       'price': 29.99,
+//       'countInStock': 5,
+//       'rating': 3.6,
+//       'numReviews': 4,
+//     },
+//     {
+//       '_id': '16',
+//       'name': 'Nido Forti-grow 900 gm',
+//       'image': '/imgs/products/foryouproducts/Nido-fortigrowth.png',
+//       'description':
+//         'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+//       'brand': 'Norma',
+//       'category': 'Washing',
+//       'price': 3.99,
+//       'countInStock': 13,
+//       'rating': 4.4,
+//       'numReviews': 9,
+//     },
+    
+//   ]
+  
+  
+//   export default product

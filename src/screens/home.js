@@ -11,6 +11,7 @@ import JustForYourProducts from '../components/layouts/foryouproductssection'
 import CollectionProducts from '../components/layouts/collection'
 import PopularBrands from '../components/layouts/popularbrand'
 import products from '../products'
+// import foryouproducts from '../foryouproducts'
 
 
 
@@ -131,7 +132,7 @@ function home(history) {
                         </div>
                     </div>
                     <Row className="bg-white px-2 pb-1 mb-4">
-                        {products.map(product => (
+                        {products.slice(0,4).map(product => (
                             <Col key={product._id} sm={12} md={6} lg={4} xl={3}>
                                 <FlashProducts product={product} className="" />
                             </Col>
@@ -153,8 +154,22 @@ function home(history) {
                 <CatProducts />
             </section>
 
-            <section>
-                <JustForYourProducts />
+            <section className="bg-light pt-4">
+                <div className="container mt-3">
+                    <Container>
+                        <h3 className="ml-2 mb-2">Just For You</h3>
+                        <Row className=" px-2 pb-1 mb-4">
+                            {products.slice(4,16).map(product => (
+                                <Col key={product._id} sm={12} md={6} lg={4} xl={3} className="my-2">
+                                    <JustForYourProducts product={product} />
+                                </Col>
+                            ))}
+                        </Row>
+                        <div className="pt-5">
+                            <Link to="/" className="underline"><button className="btn btn-outline-info w-50 btn-block text-center m-auto">Load More</button></Link>
+                        </div>
+                    </Container>
+                </div>
             </section>
 
             
