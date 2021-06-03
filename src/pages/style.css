@@ -1,0 +1,31 @@
+
+
+/* About/Contact us page header image and header text over image */
+.contact_img {
+    background-image: url('./images/cottonbro-314.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 350px;
+    background-color: #0f4c75;
+}
+
+.about_img{
+    background-image: url('./images/about_us.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    height: 350px;
+    background-color: #0f4c75;
+}
+
+.blog_img{
+    background-image: url('./images/Blog_header-img.jpg');
+    background-position: center;
+    background-size: initial;
+    color: #fff;
+    width: 100vw;
+    height: 350px;
+    background-color: #0f4c75;
+}
+

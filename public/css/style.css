@@ -1,0 +1,292 @@
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+ /* z-indexing Navbar for Slider dropdown menus */
+ 
+
+.fa-shopping-cart{
+    position: relative;   
+}
+.fa-shopping-cart:hover{
+    background-color : 1px solid darkolivegreen;
+}
+.cart-count{
+    position: absolute;  
+}
+.fa-heart-o:hover{
+    color: greenyellow;
+}
+
+
+.All_cat{
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+.cart-img{
+    border: 0.1px solid #ddd;
+    height: 85px;
+    width: 125px;
+}
+.underline{
+    text-decoration: none !important;
+}
+
+/* Set the size, colour, font properties for the blinking text */
+.blinking {
+    animation: blinkingText 1.5s infinite;
+    transition: 1s ease-in-out;
+}
+
+/* Specifies the animation and transparency for the blinking text */
+@keyframes blinkingText {
+    0% {
+        opacity: .1;
+        -o-animation-delay: 0.5s ease-in-out;
+    }
+    50% {
+        opacity: .9;
+        animation-delay: 1s;
+        transition: 0.5s ease-in-out;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+  /* Slider area css */
+  .each-fade {
+    display: flex;
+    width: 100%;
+  }
+  
+  .each-fade > div {
+    width: 100%;
+  }
+  
+  .each-fade > div img {
+    width: 100%;
+    height: 365px;
+    object-fit: cover;
+  }
+  .header_slider{
+      position: relative;
+      width: 100vw;
+      height: 100%;
+      z-index: -1;
+  }
+  .slider_dropdown{
+      position: absolute;
+      left: 2%;
+      z-index: 1;
+  }
+  .slider_dropbtn{
+      margin: 0;
+      padding: 0;
+  }
+/* Head Slider Indicators  */
+/* .indicator {
+    position: absolute;
+    z-index: -10;
+    right: 30%;
+    cursor: pointer;
+    padding: 4px;
+    border: 1px #666 solid;
+    border-radius: 50px;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+.indicator.active {
+    color: #fff;
+    outline: none;
+    background: rgb(8, 182, 66);
+
+} */
+.shopnow_btn{
+    color:#0056b3;
+}
+.shopnow_btn:hover{
+    color: darkred;
+}
+
+.p_shadow:hover{
+    box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+.p_shadow i:hover{
+  color: green;
+}
+.cat_shadow:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    /* height: 176px;
+    width: 250px; */
+    margin-top: -5px;
+    margin-bottom: 5px;
+    padding: -3px;
+    transition: 0.5s ease;
+}
+
+.collection_shadow:hover{
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+    /* height: 176px;
+    width: 250px; */
+    margin-top: -2px;
+    margin-bottom: 2px;
+    padding: -2px;
+    transition: 0.5s ease;
+}
+
+/* Quantity Plus minus button */
+input,
+textarea {
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 10px;
+}
+
+input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.input-group {
+  clear: both;
+  margin: 15px 0;
+  position: relative;
+}
+
+.input-group input[type='button'] {
+  background-color: #eeeeee;
+  min-width: 38px;
+  width: auto;
+  transition: all 300ms ease;
+}
+
+.input-group .button-minus,
+.input-group .button-plus {
+  font-weight: bold;
+  height: 38px;
+  padding: 0;
+  width: 38px;
+  position: relative;
+}
+
+.input-group .quantity-field {
+  position: relative;
+  height: 38px;
+  left: -6px;
+  text-align: center;
+  width: 62px;
+  display: inline-block;
+  font-size: 13px;
+  margin: 0 0 5px;
+  resize: vertical;
+}
+
+.button-plus {
+  left: -13px;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+}
+/* End of Quantity plus minus buttons */
+
+.fa-angle-double-down:hover{
+  margin-top: 9px;
+  padding-top: 2px;
+  color: green;
+  transition: .5s ease-in-out;
+}
+
+.flash4_tags{
+  border-radius: 50px;
+}
+.rating span{
+  margin: 0.1rem;
+}
+
+
+/* Footer Section Css */
+footer{
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+}
+
+
+.floating {
+  animation: floating 2s infinite;
+  transition: 1s ease;
+}
+
+/* Specifies the animation and transparency for the blinking text */
+@keyframes floating {
+  0% {
+      margin: 0;
+      color: #fff;
+  }
+  50% {
+      margin-top: 15px;
+      color: green;
+  }
+  100% {
+      margin: 0;
+      color: #fff;
+  }
+}
+
+
+
+@media screen and (max-width: 480px) {
+    #main-search{
+        width:375px;
+    }
+    .header_slider{
+      width: 100vw;
+
+    }
+    .slider_img{
+      width: 500px;
+    }
+    .slider_menu{
+      display: none;
+    }
+    .shop_more-btn{
+      float: left !important;; 
+      margin-top: 6px;
+    }
+    .countdown_timer{
+      background-color:brown;
+      border-radius: 2px;
+      padding: 13px;
+      color: #fff;
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
